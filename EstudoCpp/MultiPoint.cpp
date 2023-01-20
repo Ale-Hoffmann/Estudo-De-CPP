@@ -36,7 +36,7 @@ std::string MultiPoint::SaveInfo()
 		if (o < pontos.size()) { mensagem += ","; }
 	}
 
-	mensagem += " }";
+	mensagem += "] }";
 
 	return mensagem;
 }
