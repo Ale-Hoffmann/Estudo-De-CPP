@@ -1,0 +1,34 @@
+#include "MultiPoint.h"
+
+MultiPoint::MultiPoint(std::vector<std::array<float, 3>> pts)
+{
+	std::string aux = "MultiPoint";
+	SetType(aux);
+	for (auto pt : pts)
+	{
+		pontos.emplace_back(pt);
+		for (int o = 0; o < 3; o++)
+		{
+			pontos[pontos.size()-1][o] = pt[o];
+		}
+	}
+
+}
+
+std::string MultiPoint::SaveInfo()
+{
+	mensagem = "Geometry: { Type: " + GetType() + ", Coordenates: [";
+
+	for (auto ponto : pontos)
+	{
+
+	}
+
+
+
+
+
+
+
+	return mensagem;
+}

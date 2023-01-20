@@ -1,3 +1,4 @@
-﻿  Point.cpp
-C:\Users\PC\Documents\GitHub\Estudo-De-CPP\EstudoCpp\Point.cpp(21,9): warning C4018: '<': incompatibilidade de signed/unsigned
+﻿  MultiPoint.cpp
+C:\Users\PC\Documents\GitHub\Estudo-De-CPP\EstudoCpp\MultiPoint.cpp(31,11): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\PC\Documents\GitHub\Estudo-De-CPP\EstudoCpp\MultiPoint.cpp(36,9): warning C4018: '<': incompatibilidade de signed/unsigned
   EstudoCpp.vcxproj -> C:\Users\PC\Documents\GitHub\Estudo-De-CPP\EstudoCpp\Debug\EstudoCpp.exe

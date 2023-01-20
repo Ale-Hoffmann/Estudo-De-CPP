@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Feature.cpp" />
     <ClCompile Include="Geometry.cpp" />
+    <ClCompile Include="MultiPoint.cpp" />
     <ClCompile Include="Origem.cpp" />
     <ClCompile Include="Point.cpp" />
     <ClCompile Include="Properties.cpp" />
@@ -148,6 +149,7 @@
   <ItemGroup>
     <ClInclude Include="Feature.h" />
     <ClInclude Include="Geometry.h" />
+    <ClInclude Include="MultiPoint.h" />
     <ClInclude Include="Point.h" />
     <ClInclude Include="Properties.h" />
   </ItemGroup>
